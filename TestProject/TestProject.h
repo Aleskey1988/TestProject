@@ -8,8 +8,9 @@ class TestProject : public QMainWindow
 	Q_OBJECT
 
 public:
-	TestProject(QWidget *parent = Q_NULLPTR);
+	TestProject();
 
 private:
 	Ui::TestProjectClass ui;
+	int value = 5;
 };
